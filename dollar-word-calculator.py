@@ -68,7 +68,7 @@ prices = {"a": 1,
           "/": 0,
           "!": 0}
 
-a_file = open("/Users/hollybraun/Code/python/advent-2021/dictionary.py", "r")
+a_file = open("/dictionary.py", "r")
               
 lines = a_file.read()
 dictionary = lines.splitlines()
@@ -100,7 +100,7 @@ for each in range(0, len(dollar_words)):
     file_string = file_string + "\n" + dollar_words[each]
 
 
-f = open("/Users/hollybraun/Code/python/dollar-word-list.py", "w")
+f = open("/dollar-word-list.py", "w")
 f.write(file_string)
 f.close()
         
